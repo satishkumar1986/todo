@@ -10,6 +10,7 @@ export class TodoComponent implements OnInit {
 
   title = 'test';
 
+  myObj = {id:'1'}
   addForm: FormGroup;
 
   toDoList = JSON.parse(localStorage.getItem('TODO')) || [];
