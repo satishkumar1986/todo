@@ -8,6 +8,8 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class TodoComponent implements OnInit {
 
+  yourObj = {id:1, name:'satish'}
+
   addForm: FormGroup;
 
   toDoList = JSON.parse(localStorage.getItem('TODO')) || [];
